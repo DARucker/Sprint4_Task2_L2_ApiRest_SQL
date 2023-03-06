@@ -13,8 +13,9 @@ public class Fruit {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(length = 15)
+    @Column(name="fruit_name", length = 15, nullable = false, unique = true)
     private String name;
+    @Column(name="q_kilos")
     private String quantityKilos;
 
 
