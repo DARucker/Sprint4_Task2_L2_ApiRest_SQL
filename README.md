@@ -21,6 +21,10 @@ The class located in the CONTROLLER PACKAGE, must be able to respond to the foll
 * http: // localhost: 8080/fruit/getone/{id}
 * http: // localhost: 8080/fruit/getal
 
+OpenApi links at: 
+- http://localhost:8080/v3/api-docs
+- http://localhost:8080/swagger-ui/index.html
+
 Important
 
 You will need to take into account the good design practices of the APIs, using the error codes and the answers in case of incorrect invocations. (You can consult information about Responsitity).
