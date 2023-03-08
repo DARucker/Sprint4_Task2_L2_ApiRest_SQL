@@ -1,13 +1,15 @@
 package cat.itacademy.barcelonactiva.rucker.dario.s04.t02.n02.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.boot.autoconfigure.web.WebProperties;
 
 @Entity
 @Table(name = "fruits")
-@Data @Builder
+@Data @Builder @AllArgsConstructor @NoArgsConstructor
 public class Fruit {
 
     @Id

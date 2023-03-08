@@ -3,9 +3,11 @@ package cat.itacademy.barcelonactiva.rucker.dario.s04.t02.n02.service;
 import cat.itacademy.barcelonactiva.rucker.dario.s04.t02.n02.entity.Fruit;
 import cat.itacademy.barcelonactiva.rucker.dario.s04.t02.n02.repository.FruitRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class FruitServiceImpl implements IFruitService {
 
     @Autowired
